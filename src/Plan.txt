@@ -1,0 +1,11 @@
+1) sidebar
+1.1) logo
+1.2) menu
+1.2.1) sub menu
+2) search
+2.1) search form
+2.1) search tabs
+3) main
+4) card artist
+
+

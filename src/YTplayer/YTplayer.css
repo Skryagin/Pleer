@@ -1,0 +1,39 @@
+.closeYT {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 3px 6px;
+    background-color:var(--red);
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 16px;
+}
+
+.ytPlayer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+}
+.iframe {
+    z-index: 4;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .closeYT {
+        top: 10px;
+        right: 0;
+    }
+    .ytPlayer {
+        display: block;
+        width: 100%;
+        position: inherit;
+    }
+    .iframe {
+        width: 100%;
+    }
+}
